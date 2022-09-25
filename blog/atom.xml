@@ -1,3 +1,13 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Nicholas Jones' Blog</title>
+	<link href="http://nickbjones21.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://nickbjones21.github.io/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>http://nickbjones21.github.io/blog</id>
 	<author>
 		<name>Nicholas Jones</name>
