@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Nicholas Jones, Student, Launches Site"
-date: 2022-09-25
+title: "Recipes For All Tastes"
+date: 2022-09-26
 ---
 
 <!DOCTYPE HTML>
@@ -27,7 +27,7 @@ date: 2022-09-25
          <br>
          <h4>More Recipes:</h4>
          <p>
-<p> chocolate chip cookies</p>
+<p> chocolate chip cookies
 <a href="https://www.bigoven.com/recipe/classic-chocolate-chip-cookies/158006">chocolate chip cookies<br><img src="https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/classicchocolatechipcookies-109b02.jpg" alt="Chocolate Chip Cookies"</a><br>
      
 <a href="https://www.bigoven.com/recipe/roasted-cauliflower/161116">Roasted Cauliflour!<br><img src="https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/roasted-cauliflower-5.jpg" alt="Roasted Cauliflour"</a><br>
