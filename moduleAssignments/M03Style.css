@@ -2,11 +2,26 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #665544;
-	padding: 22px;}
-h1, h2, p {
+	padding: 0 15% 0 15%;}
+h1 { text-align: center;
+	color: blue;
+	font-family:'DancingScriptRegular';
+	font-size: 400%;}
 	padding: 12px;				
-		line-height: 2em;}
-i, a, a:hover, a:visited {
+	line-height: 2em;}
+h2 {
+	padding: 12px;				
+	line-height: 2em;}
+p {
+	font-family:'DancingScriptRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 200%;
+	padding: 12px;				
+	line-height: 2em;}
+i {
+	color: darkgreen;}
+a, a:hover, a:visited {
 	color: #665544;}
 
 p {
