@@ -8,3 +8,9 @@ h1, h2, p {
 		line-height: 2em;}
 i, a, a:hover, a:visited {
 	color: #665544;}
+
+p {
+   font-family: 'DancingScriptRegular';
+   font-weight: normal;
+   font-style: normal;
+}
