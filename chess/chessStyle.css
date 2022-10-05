@@ -32,22 +32,24 @@ margin-right:10%;
 }
 
 .white{
+  position: center;
  border: 1px solid black;
  width: 10%;
  height: 60px;
  background-color:white;
- /*float: left;*/
+ float: left;
  display: inline-flex;
  justify-content: center;
  align-items: center;
 }
  
 .black{
- border: 1px solid black;
+ postion: center;
+  border: 1px solid black;
  width: 10%;
  height: 60px;
  background-color:#787878;
- /*float: left;*/
+ float: left;
  display: inline-flex;
  justify-content: center;
  align-items: center;
