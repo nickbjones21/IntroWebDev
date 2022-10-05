@@ -36,7 +36,7 @@ margin-right:10%;
  width: 10%;
  height: 60px;
  background-color:white;
- //float:left;
+ 
  display: flex;
  justify-content: center;
  align-items: center;
@@ -47,7 +47,7 @@ margin-right:10%;
  width: 10%;
  height: 60px;
  background-color:#787878;
- //float:left;
+ 
  display: flex;
  justify-content: center;
  align-items: center;
