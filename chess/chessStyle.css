@@ -34,7 +34,7 @@ margin-right:10%;
 
 .white{
  border: 1px solid black;
- width: 60px;
+ width: 10%;
  height: 60px;
  background-color:white;
  float:left;
@@ -45,7 +45,7 @@ margin-right:10%;
  
 .black{
  border: 1px solid black;
- width: 60px;
+ width: 10%;
  height: 60px;
  background-color:#787878;
  float:left;
