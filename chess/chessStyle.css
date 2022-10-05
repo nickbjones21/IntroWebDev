@@ -28,8 +28,7 @@ h1 {
 .row{
 position:relative;
 margin-left:10%;
-margin-right:10%;
-  text-align:center; 
+margin-right:10%; 
 }
 
 .white{
@@ -37,7 +36,7 @@ margin-right:10%;
  width: 10%;
  height: 60px;
  background-color:white;
- float:left;
+ //float:left;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -48,7 +47,7 @@ margin-right:10%;
  width: 10%;
  height: 60px;
  background-color:#787878;
- float:left;
+ //float:left;
  display: flex;
  justify-content: center;
  align-items: center;
