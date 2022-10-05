@@ -36,8 +36,8 @@ margin-right:10%;
  width: 10%;
  height: 60px;
  background-color:white;
- 
- display: flex;
+ /*float: left;*/
+ display: inline-flex;
  justify-content: center;
  align-items: center;
 }
@@ -47,8 +47,8 @@ margin-right:10%;
  width: 10%;
  height: 60px;
  background-color:#787878;
- 
- display: flex;
+ /*float: left;*/
+ display: inline-flex;
  justify-content: center;
  align-items: center;
 }
