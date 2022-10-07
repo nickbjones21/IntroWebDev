@@ -9,13 +9,6 @@ h1 {
  margin-bottom:10%;;
 }
 
-img {
-right: 0px;
-  left: 0px;
-  margin: auto;
-  display: block;
-  position: absolute;
-}
 
 #title {
  position:fixed;
@@ -67,7 +60,17 @@ margin-right:10%;
 clear:both; 
 }
 
+img {
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+}
+
 #footer {
+ position: relative;
  border: solid 1px;
  padding: 10px;
  margin: 10px 10px;
