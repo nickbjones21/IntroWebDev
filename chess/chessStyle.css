@@ -60,13 +60,13 @@ clear:both;
 }
 
 #footer {
- position: absolute
+ /*position: absolute*/
  text-align: center;
  display: inline-block;
  vertical-align: middle;
  border: solid 2px;
  padding: 10px;
- margin:10px 10px 0 0;
+ margin:10px 10px;
  background-color: tan;
 }
 
