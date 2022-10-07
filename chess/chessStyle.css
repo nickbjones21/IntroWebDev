@@ -9,6 +9,14 @@ h1 {
  margin-bottom:10%;;
 }
 
+img {
+right: 0px;
+  left: 0px;
+  margin: auto;
+  display: block;
+  position: absolute;
+}
+
 #title {
  position:fixed;
  top:0px;
