@@ -32,7 +32,7 @@ margin-right:10%;
 }
 
 .white{
-  position: center;
+ text-align: center;
  border: 1px solid black;
  width: 10%;
  height: 60px;
@@ -44,8 +44,8 @@ margin-right:10%;
 }
  
 .black{
- postion: center;
-  border: 1px solid black;
+ text-align: center;
+ border: 1px solid black;
  width: 10%;
  height: 60px;
  background-color:#787878;
