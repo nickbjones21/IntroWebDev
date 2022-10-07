@@ -60,10 +60,15 @@ clear:both;
 }
 
 #footer {
- border: solid 1px;
+ position: absolute
+ text-align: center;
+ display: inline-block;
+ vertical-align: middle;
+ border: solid 2px;
  padding: 10px;
- margin:10px;
+ margin:10px 10px 0 0;
  background-color: tan;
+ //dear god I hope this fucking works
 }
 
 body {
