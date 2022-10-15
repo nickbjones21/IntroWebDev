@@ -21,7 +21,9 @@
 			#nav, #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
-			#feature, .article {
-				height: 10em;
-				margin-bottom: 1em;
-				background-color: #efefef;}
+			#feature {
+				 background-color: #8CC63E;
+				 background-image: url("https://cdn.pixabay.com/photo/2014/12/17/12/19/mt-fuji-571387_960_720.jpg");
+				 background-size:contain;
+				 background-position: right;
+				 background-repeat:no-repeat;}
