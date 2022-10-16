@@ -13,7 +13,7 @@ body {
 }
 h1 {
   font-family: 'RondureRegular';
-  font-weight: Bold;
+  font-weight: normal;
   font-style: normal;
   color: #ffcccc;
 }
