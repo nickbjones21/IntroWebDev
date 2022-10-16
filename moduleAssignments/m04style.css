@@ -1,7 +1,10 @@
 * {
   font-family: Arial, Verdana, sans-serif;
-  color: #e6cdeb;
+  color: #ffcc99;
   text-align: center;
+}
+p {
+  color: navy;
 }
 body {
   width: 90%;
@@ -12,6 +15,7 @@ h1 {
   font-family: 'UniqueRegular';
   font-weight: normal;
   font-style: normal;
+  color: #ffcccc;
 }
 #content {
   overflow: auto;
@@ -48,6 +52,9 @@ li {
 #footer {
   background-color: #996666;
   padding: 0.5em 0;
+}
+#footer p{
+  color: #ffcc99;
 }
 #feature {
   background-color: #d2b48c;
