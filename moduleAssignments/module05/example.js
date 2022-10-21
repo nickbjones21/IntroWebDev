@@ -1,4 +1,5 @@
-var table = userNum;             // Unit of table
+
+var table = prompt("NUMBER HERE", "Enter a number");             // Unit of table
 var i = 1;                 // Set counter to 1
 var msg = '<h2> Multiplication Table <h2>';              // Message
 
