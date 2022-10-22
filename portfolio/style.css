@@ -1,1 +1,66 @@
-
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #ffcc99;
+  text-align: center;
+}
+p {
+  color: navy;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://cdn.pixabay.com/photo/2022/03/06/00/52/abstract-7050549_960_720.jpg");
+}
+h1 {
+  font-family: 'RondureRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: #ffcccc;
+}
+#content {
+  overflow: auto;
+}
+#nav,
+#feature,
+#footer {
+  margin: 1%;
+}
+.column1,
+.column2,
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+.column3 {
+  margin-right: 0%;
+}
+.column1 {
+  background-color: #666699;
+}
+.column2 {
+  background-color: #669999;
+}
+.column3 {
+  background-color: #669966
+}
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav,
+#footer {
+  background-color: #996666;
+  padding: 0.5em 0;
+}
+#footer p{
+  color: #ffcc99;
+}
+#feature {
+  background-color: #d2b48c;
+  background-image: url("https://cdn.dribbble.com/users/1924283/screenshots/14253272/paper-latern-export-01_4x.png");
+  height: 100px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
