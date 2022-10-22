@@ -1,5 +1,5 @@
 function myFunc(){
-var table = prompt("NUMBER HERE", "Enter a number");             // Unit of table
+var table = prompt("Enter a number!", "ENTER NUMBER HERE");             // Unit of table
 var i = 1;                 // Set counter to 1
 var msg = '<h2> Multiplication Table <h2>';              // Message
 
