@@ -21,3 +21,8 @@ clear: both;
 .space {
    color:white;
 }
+
+.header1 {
+text-align: center;
+font-size: large;
+}
