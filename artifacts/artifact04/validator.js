@@ -1,11 +1,10 @@
 function isValid() {
-    if (firstName() && lastName() && eMail() && phoneNumber() && passWord() && userAddress)
+    if (firstName() && lastName() && eMail() && phoneNumber() && passWord())
     return true;
     else
         document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
         event.preventDefault();
         return false;
-        
 }
 
 FirstName.addEventListener('blur', firstName, false);
@@ -206,3 +205,47 @@ function userAddress(){
     //5) return status of each field
     return (validUseraddress);
 };
+
+UserCity.addEventListener('blur', userCity, false);
+function userCity(){
+    //1) Create variable
+    var validUsercity=false;
+
+    //2) read value from HTML
+    var usercity = document.getElementById("UserCity").value;
+    var errorMessages = "";
+
+    //3) Do validation
+    if (usercity==="null" || usercity==="" || usercity.length > 20 ) {
+        errorMessages += "<p>The city is required and cannot be greater than 20 characters</p>";
+        console.log("City invalid — length")
+        } else if (usercity.match("^[a-zA-Z ,.'-]+$")===null) {
+            errorMessages += "<p>Invalid caracter in city (accepts only A-Z, a-z, and ,.'-)</p>";
+            console.log("City invalid — bad characters")
+        } else {
+                validUsercity = true;
+                console.log("City valid")
+        };
+
+    //4) Send error message to HTML
+    document.getElementById("ucity").innerHTML = errorMessages;
+
+    //5) return status of each field
+    return (validUsercity);
+};
+
+UserZip.addeventlistener('blur', userZip, false)
+function userZip(){
+var validUserZip=false;
+var errorMessages = "";
+var country = document.getElementById("UserCountry").value;
+var userZip = document.getElementById("UserZipcode").value;
+if (country === "USA"){
+   document.getElementById('UserZipcode').required = false;
+}
+// validate Zipcode according to the rules
+else{
+//Zipcode is OK. For example: validZipcode = true;
+   document.getElementById('UserZipcode')=true;
+   console.log("Zip is valid")
+}
