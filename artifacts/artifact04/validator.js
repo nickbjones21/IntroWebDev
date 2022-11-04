@@ -63,42 +63,21 @@ function lastName(){
     return (validLastname);
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 EMail.addEventListener('blur', eMail, false);
 function eMail(){
     //1) Create variable
     var validEmail=false;
 
     //2) read value from HTML
-    var email = document.getElementById("EMail").value;
+    var userEmail = document.getElementById("EMail").value;
     var atpos = userEmail.indexOf("@");
     var dotpos = userEmail.lastIndexOf(".");
     var errorMessages = "";
 
     //3) Do validation
     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-    // send error message. For example:  
+    // send error message.  
        errorMessages = "<p>Invalid email</p>";
-    }
-   else if (email.match("^[a-zA-Z ,.'-]+$")===null) {
-            errorMessages += "<p>Invalid caracter in email (accepts only A-Z, a-z, and ,.'-)</p>";
-            console.log("Email invalid — bad characters")
         }
     else{
        validEmail = true;
@@ -110,4 +89,34 @@ function eMail(){
 
     //5) return status of each field
     return (validEmail);
+};
+
+
+
+PhoneNumber.addEventListener('blur', phoneNumber, false);
+function phoneNumber(){
+    //1) Create variable
+    var validPhonenumber=false;
+
+    //2) read value from HTML
+    var phonenumber = document.getElementById("PhoneNum").value;
+    var errorMessages = "";
+
+    //3) Do validation
+    if (isNaN(phonenumber) || phonenumber==="null" || phonenumber==="" || phonenumber.length > 14 ) {
+        errorMessages += "<p>The phone # is required and cannot be greater than 14 characters</p>";
+        console.log("Phone # invalid — length")
+        } else if (phonenumber.match("^(?=.*(?:(?:\d[ -]?){1,12}))\d(?:[0-9 -]*\d)?$")===null) {
+            errorMessages += "<p>Invalid caracter in phone #</p>";
+            console.log("Phone # invalid — bad characters")
+        } else {
+                validPhonenumber = true;
+                console.log("Phone # valid")
+        };
+
+    //4) Send error message to HTML
+    document.getElementById("pnumber").innerHTML = errorMessages;
+
+    //5) return status of each field
+    return (validFirstname);
 };
