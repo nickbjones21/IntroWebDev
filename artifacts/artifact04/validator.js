@@ -1,10 +1,11 @@
 function isValid() {
-    if (firstName() && lastName())
+    if (firstName() && lastName() && eMail() && phoneNumber() && passWord() && userAddress)
     return true;
     else
         document.getElementById("submiterror").innerHTML = "<p><strong>Error Submitting — See Above</strong></p>";
         event.preventDefault();
         return false;
+        
 }
 
 FirstName.addEventListener('blur', firstName, false);
@@ -119,4 +120,89 @@ function phoneNumber(){
 
     //5) return status of each field
     return (validFirstname);
+};
+
+
+UserName.addEventListener('blur', userName, false);
+function userName(){
+    //1) Create variable
+    var validUsername=false;
+
+    //2) read value from HTML
+    var username = document.getElementById("UserName").value;
+    var errorMessages = "";
+
+    //3) Do validation
+    if (username==="null" || username==="" || username.length > 12 ) {
+        errorMessages += "<p>The username is required and cannot be greater than 12 characters</p>";
+        console.log("Username invalid — length")
+        } else if (username.match("^[a-zA-Z ,.'-]+$")===null) {
+            errorMessages += "<p>Invalid caracter in username (accepts only A-Z, a-z, and ,.'-)</p>";
+            console.log("Username invalid — bad characters")
+        } else {
+                validUsername = true;
+                console.log("Username valid")
+        };
+
+    //4) Send error message to HTML
+    document.getElementById("uname").innerHTML = errorMessages;
+
+    //5) return status of each field
+    return (validUsername);
+};
+
+
+PassWord.addEventListener('blur', passWord, false);
+function passWord(){
+    //1) Create variable
+    var validPassword=false;
+
+    //2) read value from HTML
+    var password = document.getElementById("PassWord").value;
+    var errorMessages = "";
+
+    //3) Do validation
+    if (password==="null" || password==="" || password.length > 7 ) {
+        errorMessages += "<p>The password is required and cannot be greater than 7 characters</p>";
+        console.log("Password invalid — length")
+        } 
+   else {
+                validPassword = true;
+                console.log("Password is valid")
+        };
+
+    //4) Send error message to HTML
+    document.getElementById("pword").innerHTML = errorMessages;
+
+    //5) return status of each field
+    return (validPassword);
+};
+
+
+UserAddress.addEventListener('blur', userAddress, false);
+function userAddress(){
+    //1) Create variable
+    var validUseraddress=false;
+
+    //2) read value from HTML
+    var useraddress = document.getElementById("UserAddress").value;
+    var errorMessages = "";
+
+    //3) Do validation
+    if (useraddress==="null" || useraddress==="" || useraddress.length > 50 ) {
+        errorMessages += "<p>The address is required and cannot be greater than 50 characters</p>";
+        console.log("Address invalid — length")
+        } else if (useraddress.match("^[a-zA-Z ,.'-]+$")===null) {
+            errorMessages += "<p>Invalid caracter in address (accepts only A-Z, a-z, and ,.'-)</p>";
+            console.log("Address invalid — bad characters")
+        } else {
+                validUseraddress = true;
+                console.log("Address valid")
+        };
+
+    //4) Send error message to HTML
+    document.getElementById("uaddress").innerHTML = errorMessages;
+
+    //5) return status of each field
+    return (validUseraddress);
 };
