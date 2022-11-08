@@ -74,18 +74,39 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Contact Me</span></h5>
-    <p><form action="/action_page.php" method="get" name="myForm">
-  <label for="fname">Name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  
-
-       <label for="email">Email:</label>
-<input type="email" id="email" name="email"><br>
+    <p>
+       <div class="form_container">
+          
+          
+ <form id="myform" action="thankyou.html" onsubmit="isValid();">
+            <p>
+                <label for='FirstName'>First Name:</label>
+                <input type="text" id="FirstName" name="FirstName">
+            </p>
+            <div class="warning" id="fname"></div>
+            
+           
+           <p>
+                <label for='LastName'>Last Name:</label>
+                <input type="text" id="LastName" name="LastName">
+            </p>
+            <div class="warning" id="lname"></div>
+            
+           
+           <p>
+                <label for='EMail'>Email:</label>
+                <input type="email" id="EMail" name="EMail">
+            </p>
+            <div class="warning" id="email"></div>
+    <label for="comments">Comments:</label><br>
+       <textarea name="comments" id="comments">
+Comments Here!
+</textarea>
+</div>
+     </p>
      
-     <br><label for="comments">Comm: <textarea name="comments">Enter your comments...</textarea>
-     <br><input type="button" onclick="formSubmit()" value="Send form data!">
+      <button type='submit'>Submit</button>
      </form>
-       
   </div>
 </div>
 
