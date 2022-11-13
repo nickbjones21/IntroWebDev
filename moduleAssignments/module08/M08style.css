@@ -105,6 +105,10 @@ p {
 	min-width: 20%; 
 	max-width: 80%; }
 
+.buttonMid {
+	text-align: center;
+}
+
 #scriptResults {
 	padding-bottom: 10px;}
 
