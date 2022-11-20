@@ -1,11 +1,11 @@
-var myImages =["https://cdn.pixabay.com/photo/2013/07/12/13/21/baseball-146883_960_720.png", 
-"https://cdn.pixabay.com/photo/2019/01/12/20/15/ache-3929184_960_720.png",
-"https://cdn.pixabay.com/photo/2014/09/13/03/23/fire-443549_960_720.png",
-"https://cdn.pixabay.com/photo/2012/04/12/19/36/man-30322_960_720.png",
-"https://cdn.pixabay.com/photo/2017/01/31/14/13/firewood-2024457_960_720.png"];
+var myImages =["https://cdn.pixabay.com/photo/2013/07/12/13/21/baseball-146883_960_720.png" width="200" height="200" alt="a baseball", 
+"https://cdn.pixabay.com/photo/2019/01/12/20/15/ache-3929184_960_720.png" width="200" height="200" alt="my back",
+"https://cdn.pixabay.com/photo/2014/09/13/03/23/fire-443549_960_720.png" width="200" height="200" alt="a fire",
+"https://cdn.pixabay.com/photo/2012/04/12/19/36/man-30322_960_720.png" width="200" height="200" alt="a bag of trash",
+"https://cdn.pixabay.com/photo/2017/01/31/14/13/firewood-2024457_960_720.png" width="200" height="200" alt="a log",
+"https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg" width="200" height="200" alt="a cat"];
 
-
-var captionImages =["Baseball","Backpain","Fire","Trash","Log"];
+var captionImages =["Baseball","Backpain","Fire","Trash","Log","cat"];
 
  var index=0; 
 
