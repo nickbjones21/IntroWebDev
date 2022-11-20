@@ -65,3 +65,8 @@ textarea:focus {
 #it_all{
    text-align: center;
 }
+
+#footer {
+ text-align: center;
+ padding: 10px;
+}
