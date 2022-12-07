@@ -21,6 +21,12 @@ body, html {
   100% {background-color:blue; left:0px; top:0px;}
 }
 
+.hideThisFrame{
+    height:1px;
+    width:1px;
+    opacity: 0;
+    }
+
 .bgimg {
   background-position: center;
   background-size: cover;
